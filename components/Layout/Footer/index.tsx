@@ -115,7 +115,7 @@ export default function Footer() {
                 Egyedi ajánlatokért és akciókhoz iratkozz fel hírlevelünkre!
               </ListItem>
               <ListItem>
-                <ValidatorForm>
+                <ValidatorForm onSubmit={() => null}>
                   <TextValidator
                     label='Email'
                     onChange={handleChange}
