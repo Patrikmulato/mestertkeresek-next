@@ -8,7 +8,7 @@ import {
 import { ExpandLess, ExpandMore } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { list } from './items';
-import Logo from '../../../../public/static/images/logo-two-line.png';
+import Image from 'next/image';
 
 interface MenuItemsInterface {
   classes: Record<
@@ -25,7 +25,12 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
   return (
     <List className={classes.list}>
       <ListItem>
-        <img src={Logo} alt='logo' />
+        <Image
+          src='/static/images/logo-two-line.png'
+          alt='logo'
+          height='50px'
+          width='148px'
+        />
       </ListItem>
 
       {list.map((item) => {

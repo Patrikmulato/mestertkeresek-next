@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from 'components/Layout/Layout';
+import GoogleMapComponent from 'components/GoogleMapComponent/GoogleMapComponent';
 
 const kapcsolat = () => {
   return (
     <Layout>
+      <GoogleMapComponent />
       <div>
         Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Sed
         porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh

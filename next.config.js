@@ -1,2 +1,5 @@
-const withImages = require('next-images');
-module.exports = withImages();
+module.exports = {
+  env: {
+    googleMapKey: 'YOUR_API_KEY',
+  },
+};

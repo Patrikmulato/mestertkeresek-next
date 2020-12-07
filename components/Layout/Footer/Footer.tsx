@@ -8,6 +8,8 @@ import {
   ListItem,
   Typography,
 } from '@material-ui/core';
+import Image from 'next/image';
+
 import Facebook from '@material-ui/icons/Facebook';
 import { LinkedIn } from '@material-ui/icons';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
@@ -32,17 +34,19 @@ export default function Footer() {
           <Grid item lg={3} md={6} sm={6} xs={12}>
             <List>
               <ListItem>
-                <img
-                  src={require('public/static/images/logo_large.png')}
+                <Image
+                  src='/static/images/logo_large.png'
                   alt='Mestertkeresek.hu'
-                  style={{ width: '100%', height: 'auto' }}
+                  width='1500'
+                  height='226'
                 />
               </ListItem>
               <ListItem>
-                <img
-                  src={require('public/static/images/barion-card-strip-intl.svg')}
+                <Image
+                  src='/static/images/barion-card-strip-intl.svg'
                   alt='barion strip'
-                  style={{ width: '100%', height: 'auto' }}
+                  width='11317'
+                  height='1167'
                 />
               </ListItem>
               <ListItem>
