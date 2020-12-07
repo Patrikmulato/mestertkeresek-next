@@ -12,9 +12,15 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     list: {
       width: 300,
+      color: theme.palette.text.secondary,
     },
     fullList: {
       width: 'auto',
+    },
+    appBar: {
+      flexGrow: 1,
+      background: theme.palette.background.paper,
+      color: theme.palette.text.secondary,
     },
     root: {
       flexGrow: 1,
@@ -28,6 +34,7 @@ const useStyles = makeStyles((theme: Theme) =>
     nested: {
       paddingLeft: theme.spacing(4),
     },
+    sidebar: {},
   })
 );
 

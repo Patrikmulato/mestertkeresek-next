@@ -1,7 +1,14 @@
-import { Collapse, List, ListItem, ListItemText } from '@material-ui/core';
+import {
+  Collapse,
+  Divider,
+  List,
+  ListItem,
+  ListItemText,
+} from '@material-ui/core';
 import { ExpandLess, ExpandMore } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { list } from './items';
+import Logo from '../../../../public/static/images/logo-two-line.png';
 
 interface MenuItemsInterface {
   classes: Record<
@@ -17,6 +24,10 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
   };
   return (
     <List className={classes.list}>
+      <ListItem>
+        <img src={Logo} alt='logo' />
+      </ListItem>
+
       {list.map((item) => {
         return (
           <div key={item.id}>

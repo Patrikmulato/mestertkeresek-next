@@ -9,7 +9,13 @@ interface SidebarInterface {
   ) => (event: React.KeyboardEvent | React.MouseEvent) => void;
   iOS: boolean;
   classes: Record<
-    'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested',
+    | 'list'
+    | 'fullList'
+    | 'root'
+    | 'menuButton'
+    | 'title'
+    | 'nested'
+    | 'sidebar',
     string
   >;
 }
@@ -27,6 +33,7 @@ const Sidebar: React.FC<SidebarInterface> = ({
       onOpen={toggleDrawer(true)}
       disableBackdropTransition={!iOS}
       disableDiscovery={iOS}
+      className={classes.sidebar}
     >
       <MenuItems classes={classes} />
     </SwipeableDrawer>

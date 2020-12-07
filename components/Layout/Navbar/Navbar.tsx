@@ -10,7 +10,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 interface NavbarInterface {
   classes: Record<
-    'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested',
+    'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested' | 'appBar',
     string
   >;
   toggleDrawer: (
@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarInterface> = ({
   isLoggedIn,
 }: NavbarInterface) => {
   return (
-    <AppBar position='static' className={classes.root}>
+    <AppBar position='sticky' className={classes.appBar}>
       <Toolbar>
         <IconButton
           edge='start'
@@ -37,7 +37,7 @@ const Navbar: React.FC<NavbarInterface> = ({
           <MenuIcon />
         </IconButton>
         <Typography variant='h6' className={classes.title}>
-          Mestertkeresek.hu
+          Mesterkeresek.hu
         </Typography>
         {isLoggedIn ? (
           <div></div>
