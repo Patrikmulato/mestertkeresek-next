@@ -1,30 +1,22 @@
-import { Collapse, List, ListItem, ListItemText } from '@material-ui/core';
-import { ExpandLess, ExpandMore } from '@material-ui/icons';
-import React, { useState } from 'react';
-import { list } from './items';
-import Image from 'next/image';
+import { Collapse, List, ListItem, ListItemText } from '@material-ui/core'
+import { ExpandLess, ExpandMore } from '@material-ui/icons'
+import React, { useState } from 'react'
+import { list } from './items'
+import Image from 'next/image'
 
 interface MenuItemsInterface {
-  classes: Record<
-    'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested',
-    string
-  >;
+  classes: Record<'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested', string>
 }
 
 const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
-  const [isCollapsed, setIsCollapsed] = useState({});
+  const [isCollapsed, setIsCollapsed] = useState({})
   const handleClick = (name: string) => {
-    setIsCollapsed({ ...isCollapsed, [name]: !isCollapsed[name] });
-  };
+    setIsCollapsed({ ...isCollapsed, [name]: !isCollapsed[name] })
+  }
   return (
     <List className={classes.list}>
       <ListItem>
-        <Image
-          src='/static/images/logo-two-line.png'
-          alt='logo'
-          height='50px'
-          width='148px'
-        />
+        <Image src="/static/images/logo-two-line.png" alt="logo" height="50px" width="148px" />
       </ListItem>
 
       {list.map((item) => {
@@ -36,26 +28,14 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
                   <ListItemText primary={item.name} />
                   {isCollapsed[item.name] ? <ExpandLess /> : <ExpandMore />}
                 </ListItem>
-                <Collapse
-                  component='li'
-                  in={isCollapsed[item.name]}
-                  timeout='auto'
-                  unmountOnExit
-                >
+                <Collapse component="li" in={isCollapsed[item.name]} timeout="auto" unmountOnExit>
                   <List disablePadding>
                     {item.subitems.map((subitem) => {
                       return (
-                        <ListItem
-                          button
-                          key={subitem.id}
-                          className={classes.nested}
-                        >
-                          <ListItemText
-                            key={subitem.id}
-                            primary={subitem.name}
-                          />
+                        <ListItem button key={subitem.id} className={classes.nested}>
+                          <ListItemText key={subitem.id} primary={subitem.name} />
                         </ListItem>
-                      );
+                      )
                     })}
                   </List>
                 </Collapse>
@@ -66,10 +46,10 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
               </ListItem>
             )}
           </div>
-        );
+        )
       })}
     </List>
-  );
-};
+  )
+}
 
-export default MenuItems;
+export default MenuItems

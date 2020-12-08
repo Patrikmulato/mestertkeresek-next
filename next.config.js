@@ -1,7 +1,7 @@
-import keys from './keys.json';
+require('dotenv').config();
 
 module.exports = {
   env: {
-    googleMapKey: keys.googleMapKey,
+    googleMapKey: process.env.GOOGLE_API_KEY,
   },
 };

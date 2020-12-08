@@ -1,33 +1,20 @@
-import { SwipeableDrawer } from '@material-ui/core';
-import React from 'react';
-import MenuItems from './MenuItems/MenuItems';
+import { SwipeableDrawer } from '@material-ui/core'
+import React from 'react'
+import MenuItems from './MenuItems/MenuItems'
 
 interface SidebarInterface {
-  isOpen: boolean;
-  toggleDrawer: (
-    open: boolean
-  ) => (event: React.KeyboardEvent | React.MouseEvent) => void;
-  iOS: boolean;
+  isOpen: boolean
+  toggleDrawer: (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => void
+  iOS: boolean
   classes: Record<
-    | 'list'
-    | 'fullList'
-    | 'root'
-    | 'menuButton'
-    | 'title'
-    | 'nested'
-    | 'sidebar',
+    'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested' | 'sidebar',
     string
-  >;
+  >
 }
-const Sidebar: React.FC<SidebarInterface> = ({
-  isOpen,
-  toggleDrawer,
-  iOS,
-  classes,
-}) => {
+const Sidebar: React.FC<SidebarInterface> = ({ isOpen, toggleDrawer, iOS, classes }) => {
   return (
     <SwipeableDrawer
-      anchor='left'
+      anchor="left"
       open={isOpen}
       onClose={toggleDrawer(false)}
       onOpen={toggleDrawer(true)}
@@ -37,7 +24,7 @@ const Sidebar: React.FC<SidebarInterface> = ({
     >
       <MenuItems classes={classes} />
     </SwipeableDrawer>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar

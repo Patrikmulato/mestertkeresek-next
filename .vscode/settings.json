@@ -1,5 +1,7 @@
 {
-    "cSpell.words": [
-        "Swipeable"
-    ]
+  "cSpell.words": ["Swipeable"],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

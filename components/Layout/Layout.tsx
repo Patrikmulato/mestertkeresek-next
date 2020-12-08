@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React, { useState } from 'react'
+import { makeStyles } from '@material-ui/core/styles'
 
-import { Container, createStyles, Theme } from '@material-ui/core';
-import Navbar from './Navbar/Navbar';
-import Sidebar from './Sidebar/Sidebar';
-import Footer from './Footer/Footer';
+import { Container, createStyles, Theme } from '@material-ui/core'
+import Navbar from './Navbar/Navbar'
+import Sidebar from './Sidebar/Sidebar'
+import Footer from './Footer/Footer'
 
-const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
+const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent)
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -36,44 +36,33 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     sidebar: {},
   })
-);
+)
 
 export default function Layout({ children }) {
-  const classes = useStyles();
-  const [isOpen, setIsOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const classes = useStyles()
+  const [isOpen, setIsOpen] = useState(false)
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
-  const toggleDrawer = (open: boolean) => (
-    event: React.KeyboardEvent | React.MouseEvent
-  ) => {
+  const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     if (
       event &&
       event.type === 'keydown' &&
       ((event as React.KeyboardEvent).key === 'Tab' ||
         (event as React.KeyboardEvent).key === 'Shift')
     ) {
-      return;
+      return
     }
 
-    setIsOpen(open);
-  };
+    setIsOpen(open)
+  }
 
   return (
     <>
-      <Navbar
-        classes={classes}
-        toggleDrawer={toggleDrawer}
-        isLoggedIn={isLoggedIn}
-      />
-      <Sidebar
-        isOpen={isOpen}
-        toggleDrawer={toggleDrawer}
-        iOS={iOS}
-        classes={classes}
-      />
+      <Navbar classes={classes} toggleDrawer={toggleDrawer} isLoggedIn={isLoggedIn} />
+      <Sidebar isOpen={isOpen} toggleDrawer={toggleDrawer} iOS={iOS} classes={classes} />
       <Container>{children}</Container>
 
       <Footer />
     </>
-  );
+  )
 }

@@ -1,21 +1,18 @@
-import React from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import React from 'react'
+import { GoogleMap, LoadScript } from '@react-google-maps/api'
 
 interface GoogleMapComponentInterface {
   containerStyle: {
-    width: string;
-    height: string;
-  };
+    width: string
+    height: string
+  }
   center: {
-    lat: number;
-    lng: number;
-  };
+    lat: number
+    lng: number
+  }
 }
 
-const GoogleMapComponent: React.FC<GoogleMapComponentInterface> = ({
-  containerStyle,
-  center,
-}) => {
+const GoogleMapComponent: React.FC<GoogleMapComponentInterface> = ({ containerStyle, center }) => {
   return (
     <LoadScript googleMapsApiKey={process.env.googleMapKey}>
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
@@ -23,7 +20,7 @@ const GoogleMapComponent: React.FC<GoogleMapComponentInterface> = ({
         <></>
       </GoogleMap>
     </LoadScript>
-  );
-};
+  )
+}
 
-export default GoogleMapComponent;
+export default GoogleMapComponent

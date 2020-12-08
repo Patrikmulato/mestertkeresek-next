@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import Layout from 'components/Layout/Layout';
-import GoogleMapComponent from 'components/GoogleMapComponent/GoogleMapComponent';
-import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
-import RoomIcon from '@material-ui/icons/Room';
-import EmailIcon from '@material-ui/icons/Email';
-import FeaturedVideoIcon from '@material-ui/icons/FeaturedVideo';
+import React, { useState } from 'react'
+import Layout from 'components/Layout/Layout'
+import GoogleMapComponent from 'components/GoogleMapComponent/GoogleMapComponent'
+import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator'
+import RoomIcon from '@material-ui/icons/Room'
+import EmailIcon from '@material-ui/icons/Email'
+import FeaturedVideoIcon from '@material-ui/icons/FeaturedVideo'
 
 import {
   Grid,
@@ -17,7 +17,7 @@ import {
   Typography,
   makeStyles,
   Button,
-} from '@material-ui/core';
+} from '@material-ui/core'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -25,26 +25,26 @@ const useStyles = makeStyles((theme: Theme) =>
       color: '#444444',
     },
   })
-);
+)
 
 // Miskolc, Csemetekert utca 2
 const containerStyle = {
   width: '400px',
   height: '400px',
-};
+}
 const center = {
   lat: 48.074686,
   lng: 20.767363,
-};
+}
 
-const kapcsolat = () => {
-  const [name, setName] = useState('');
-  const classes = useStyles();
+const Kapcsolat = () => {
+  const [name, setName] = useState('')
+  const classes = useStyles()
 
   return (
     <Layout>
       <GoogleMapComponent containerStyle={containerStyle} center={center} />
-      <Typography variant='h5'>Kapcsolatfelvétel</Typography>
+      <Typography variant="h5">Kapcsolatfelvétel</Typography>
       <Grid container>
         <Grid item sm={12} md={6} lg={6}>
           <List className={classes.root}>
@@ -54,10 +54,8 @@ const kapcsolat = () => {
               </ListItemIcon>
               <ListItemText
                 className={classes.root}
-                primary='CÍM'
-                secondary={
-                  '3508, Csemetekert utca 2 - Miskolc, Borsod-Abaúj-Zemplén'
-                }
+                primary="CÍM"
+                secondary={'3508, Csemetekert utca 2 - Miskolc, Borsod-Abaúj-Zemplén'}
               />
             </ListItem>
             <ListItem>
@@ -66,16 +64,12 @@ const kapcsolat = () => {
               </ListItemIcon>
               <ListItemText
                 className={classes.root}
-                primary='EMAIL'
+                primary="EMAIL"
                 secondary={
                   <>
-                    <span>
-                      Üzleti kapcsolattartó: bajusz.mate@mestertkeresek.hu
-                    </span>
+                    <span>Üzleti kapcsolattartó: bajusz.mate@mestertkeresek.hu</span>
                     <br />
-                    <span>
-                      Ügyfél szolgálat: ugyfelszolgalat@mestertkeresek.hu
-                    </span>
+                    <span>Ügyfél szolgálat: ugyfelszolgalat@mestertkeresek.hu</span>
                   </>
                 }
               />
@@ -86,12 +80,10 @@ const kapcsolat = () => {
               </ListItemIcon>
               <ListItemText
                 className={classes.root}
-                primary='REKLÁMOK'
+                primary="REKLÁMOK"
                 secondary={
                   <>
-                    <span>
-                      Reklámok megjelentetésével kapcsolatos kérdések,
-                    </span>
+                    <span>Reklámok megjelentetésével kapcsolatos kérdések,</span>
                     <br />
                     <span>ajánlat kérés: sales@mestertkeresek.hu</span>
                   </>
@@ -104,45 +96,45 @@ const kapcsolat = () => {
           <ValidatorForm onSubmit={() => null}>
             <div>
               <TextValidator
-                label='name'
+                label="name"
                 /* onChange={handleChange} */
-                name='name'
+                name="name"
                 value={name}
                 validators={['required', 'isString']}
                 errorMessages={['A mezö kötelezö', 'Nem valós név']}
-                variant='outlined'
+                variant="outlined"
               />
 
               <TextValidator
-                label='Email'
+                label="Email"
                 /* onChange={handleChange} */
-                name='email'
+                name="email"
                 value={name}
                 validators={['required', 'isEmail']}
                 errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                variant='outlined'
+                variant="outlined"
               />
             </div>
             <div>
               <TextValidator
-                label='Email'
+                label="Email"
                 /* onChange={handleChange} */
-                name='email'
+                name="email"
                 value={name}
                 validators={['required', 'isEmail']}
                 errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                variant='outlined'
+                variant="outlined"
               />
             </div>
 
-            <Button type='submit' color='primary'>
+            <Button type="submit" color="primary">
               Küldés
             </Button>
           </ValidatorForm>
         </Grid>
       </Grid>
     </Layout>
-  );
-};
+  )
+}
 
-export default kapcsolat;
+export default Kapcsolat

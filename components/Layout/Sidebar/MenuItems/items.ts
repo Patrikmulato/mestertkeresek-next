@@ -101,4 +101,4 @@ export const list = [
     id: 5,
     name: 'Hogyan működik?',
   },
-];
+]
