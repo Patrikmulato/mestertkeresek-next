@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { createStyles, Theme } from '@material-ui/core';
+import { Container, createStyles, Theme } from '@material-ui/core';
 import Navbar from './Navbar/Navbar';
 import Sidebar from './Sidebar/Sidebar';
 import Footer from './Footer/Footer';
@@ -71,7 +71,8 @@ export default function Layout({ children }) {
         iOS={iOS}
         classes={classes}
       />
-      {children}
+      <Container>{children}</Container>
+
       <Footer />
     </>
   );

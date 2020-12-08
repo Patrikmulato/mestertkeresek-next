@@ -1,10 +1,4 @@
-import {
-  Collapse,
-  Divider,
-  List,
-  ListItem,
-  ListItemText,
-} from '@material-ui/core';
+import { Collapse, List, ListItem, ListItemText } from '@material-ui/core';
 import { ExpandLess, ExpandMore } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { list } from './items';
@@ -37,17 +31,12 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
         return (
           <div key={item.id}>
             {item.subitems != null ? (
-              <div key={item.id}>
-                <ListItem
-                  button
-                  key={item.id}
-                  onClick={() => handleClick(item.name)}
-                >
+              <div>
+                <ListItem button onClick={() => handleClick(item.name)}>
                   <ListItemText primary={item.name} />
                   {isCollapsed[item.name] ? <ExpandLess /> : <ExpandMore />}
                 </ListItem>
                 <Collapse
-                  key={item.id}
                   component='li'
                   in={isCollapsed[item.name]}
                   timeout='auto'
@@ -72,11 +61,7 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
                 </Collapse>
               </div>
             ) : (
-              <ListItem
-                button
-                onClick={() => handleClick(item.name)}
-                key={item.id}
-              >
+              <ListItem button onClick={() => handleClick(item.name)}>
                 <ListItemText primary={item.name} />
               </ListItem>
             )}

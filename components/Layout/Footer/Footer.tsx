@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <>
       <hr color='#393939' />
-      <Box color='text.secondary' bgcolor='background.paper'>
+      <Box color='#FFFF' bgcolor='background.paper'>
         <Grid
           container
           spacing={3}
