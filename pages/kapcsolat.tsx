@@ -102,29 +102,16 @@ const kapcsolat = () => {
         </Grid>
         <Grid item sm={12} md={6} lg={6}>
           <ValidatorForm onSubmit={() => null}>
-            <Grid container>
-              <Grid item sm={12} md={6} lg={6}>
-                <TextValidator
-                  label='name'
-                  /* onChange={handleChange} */
-                  name='name'
-                  value={name}
-                  validators={['required', 'isString']}
-                  errorMessages={['A mezö kötelezö', 'Nem valós név']}
-                  variant='outlined'
-                />
-              </Grid>
-              <Grid item sm={12} md={6} lg={6}>
-                <TextValidator
-                  label='Email'
-                  /* onChange={handleChange} */
-                  name='email'
-                  value={name}
-                  validators={['required', 'isEmail']}
-                  errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                  variant='outlined'
-                />
-              </Grid>
+            <div>
+              <TextValidator
+                label='name'
+                /* onChange={handleChange} */
+                name='name'
+                value={name}
+                validators={['required', 'isString']}
+                errorMessages={['A mezö kötelezö', 'Nem valós név']}
+                variant='outlined'
+              />
 
               <TextValidator
                 label='Email'
@@ -135,7 +122,18 @@ const kapcsolat = () => {
                 errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
                 variant='outlined'
               />
-            </Grid>
+            </div>
+            <div>
+              <TextValidator
+                label='Email'
+                /* onChange={handleChange} */
+                name='email'
+                value={name}
+                validators={['required', 'isEmail']}
+                errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
+                variant='outlined'
+              />
+            </div>
 
             <Button type='submit' color='primary'>
               Küldés
