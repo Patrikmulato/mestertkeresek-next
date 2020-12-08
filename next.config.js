@@ -1,5 +1,7 @@
+import keys from './keys.json';
+
 module.exports = {
   env: {
-    googleMapKey: 'YOUR_API_KEY',
+    googleMapKey: keys.googleMapKey,
   },
 };
