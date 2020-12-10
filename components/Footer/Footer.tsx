@@ -1,15 +1,32 @@
 import React, { useState } from 'react'
-import { Box, Button, Grid, Link, List, ListItem, Typography } from '@material-ui/core'
+import {
+  Box,
+  Button,
+  createStyles,
+  Grid,
+  Link,
+  List,
+  ListItem,
+  makeStyles,
+  Typography,
+  withStyles,
+} from '@material-ui/core'
 import Image from 'next/image'
+import { Form } from 'react-final-form'
+import { TextField } from 'mui-rff'
 
 import Facebook from '@material-ui/icons/Facebook'
 import { LinkedIn } from '@material-ui/icons'
-import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator'
 
 const Footer = () => {
   const [email, setEmail] = useState('')
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => setEmail(event.target.value)
+
+  // yes, this can even be async!
+  async function onSubmit(values: FormData) {
+    console.log(values)
+  }
 
   return (
     <>
@@ -101,19 +118,24 @@ const Footer = () => {
               </ListItem>
               <ListItem>Egyedi ajánlatokért és akciókhoz iratkozz fel hírlevelünkre!</ListItem>
               <ListItem>
-                <ValidatorForm onSubmit={() => null}>
-                  <TextValidator
-                    label="Email"
-                    onChange={handleChange}
-                    name="email"
-                    value={email}
-                    validators={['required', 'isEmail']}
-                    errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                  />
-                  <Button type="submit" color="primary">
-                    Küldés
-                  </Button>
-                </ValidatorForm>
+                <Form
+                  onSubmit={onSubmit}
+                  /* initialValues={initialValues}
+                  validate={validate} */
+                  render={({ handleSubmit, values }) => (
+                    <form onSubmit={handleSubmit} noValidate>
+                      <TextField
+                        label="A te emailed"
+                        name="newsLetter"
+                        variant="outlined"
+                        required
+                      />
+                      <Button variant="contained" color="primary">
+                        Küldés
+                      </Button>
+                    </form>
+                  )}
+                />
               </ListItem>
             </List>
           </Grid>

@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
-import Layout from 'components/Layout/Layout'
+import React from 'react'
+import Layout from 'containers/Layout/Layout'
 import GoogleMapComponent from 'components/GoogleMapComponent/GoogleMapComponent'
-import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator'
 import RoomIcon from '@material-ui/icons/Room'
 import EmailIcon from '@material-ui/icons/Email'
 import FeaturedVideoIcon from '@material-ui/icons/FeaturedVideo'
+import { Form } from 'react-final-form'
+import { TextField, makeValidate } from 'mui-rff'
+import * as Yup from 'yup'
 
 import {
   Grid,
@@ -17,19 +19,28 @@ import {
   Typography,
   makeStyles,
   Button,
+  FormControl,
 } from '@material-ui/core'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      color: '#444444',
+      '& .MuiTextField-root': {
+        margin: theme.spacing(1),
+      },
+    },
+    button: {
+      margin: theme.spacing(1),
+    },
+    contactText: {
+      margin: theme.spacing(2),
     },
   })
 )
 
 // Miskolc, Csemetekert utca 2
 const containerStyle = {
-  width: '400px',
+  width: '100%',
   height: '400px',
 }
 const center = {
@@ -38,22 +49,39 @@ const center = {
 }
 
 const Kapcsolat = () => {
-  const [name, setName] = useState('')
   const classes = useStyles()
+
+  // We define our schema based on the same keys as our form:
+  const schema = Yup.object().shape({
+    name: Yup.string().required(),
+    email: Yup.string().email().required(),
+    subject: Yup.string().required(),
+    message: Yup.string().required(),
+  })
+
+  // Run the makeValidate function...
+  const validate = makeValidate(schema)
+
+  async function onSubmit(values: FormData) {
+    makeValidate(schema)
+    console.log(values)
+  }
 
   return (
     <Layout>
       <GoogleMapComponent containerStyle={containerStyle} center={center} />
-      <Typography variant="h5">Kapcsolatfelvétel</Typography>
+      <Typography variant="h5" className={classes.contactText}>
+        Kapcsolatfelvétel
+      </Typography>
+      <hr />
       <Grid container>
-        <Grid item sm={12} md={6} lg={6}>
-          <List className={classes.root}>
+        <Grid item xs={12} sm={12} md={6} lg={6}>
+          <List>
             <ListItem>
               <ListItemIcon>
                 <RoomIcon />
               </ListItemIcon>
               <ListItemText
-                className={classes.root}
                 primary="CÍM"
                 secondary={'3508, Csemetekert utca 2 - Miskolc, Borsod-Abaúj-Zemplén'}
               />
@@ -63,7 +91,6 @@ const Kapcsolat = () => {
                 <EmailIcon />
               </ListItemIcon>
               <ListItemText
-                className={classes.root}
                 primary="EMAIL"
                 secondary={
                   <>
@@ -79,7 +106,6 @@ const Kapcsolat = () => {
                 <FeaturedVideoIcon />
               </ListItemIcon>
               <ListItemText
-                className={classes.root}
                 primary="REKLÁMOK"
                 secondary={
                   <>
@@ -92,45 +118,64 @@ const Kapcsolat = () => {
             </ListItem>
           </List>
         </Grid>
-        <Grid item sm={12} md={6} lg={6}>
-          <ValidatorForm onSubmit={() => null}>
-            <div>
-              <TextValidator
-                label="name"
-                /* onChange={handleChange} */
-                name="name"
-                value={name}
-                validators={['required', 'isString']}
-                errorMessages={['A mezö kötelezö', 'Nem valós név']}
-                variant="outlined"
-              />
+        <Grid item xs={12} sm={12} md={6} lg={6}>
+          <Form
+            onSubmit={onSubmit}
+            validate={validate}
+            render={({ handleSubmit }) => (
+              <form onSubmit={handleSubmit} className={classes.root} noValidate>
+                <Grid container spacing={2}>
+                  <Grid item xs={12} sm={12} md={6} lg={6}>
+                    <TextField
+                      placeholder="Kovács János"
+                      label="Teljes Név"
+                      name="name"
+                      variant="outlined"
+                      required
+                    />
+                  </Grid>
+                  <Grid item xs={12} sm={12} md={6} lg={6}>
+                    <TextField
+                      placeholder="email@email.com"
+                      label="Email"
+                      name="email"
+                      variant="outlined"
+                      required
+                    />
+                  </Grid>
+                </Grid>
 
-              <TextValidator
-                label="Email"
-                /* onChange={handleChange} */
-                name="email"
-                value={name}
-                validators={['required', 'isEmail']}
-                errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                variant="outlined"
-              />
-            </div>
-            <div>
-              <TextValidator
-                label="Email"
-                /* onChange={handleChange} */
-                name="email"
-                value={name}
-                validators={['required', 'isEmail']}
-                errorMessages={['A mezö kötelezö', 'Nem valós email cím']}
-                variant="outlined"
-              />
-            </div>
-
-            <Button type="submit" color="primary">
-              Küldés
-            </Button>
-          </ValidatorForm>
+                <FormControl fullWidth>
+                  <TextField
+                    placeholder="Tárgy"
+                    label="Tárgy"
+                    name="subject"
+                    variant="outlined"
+                    required
+                  />
+                </FormControl>
+                <FormControl fullWidth>
+                  <TextField
+                    placeholder="Kedves Mestertkeresek.hu,"
+                    label="Üzenet"
+                    name="message"
+                    variant="outlined"
+                    rows="4"
+                    multiline
+                    required
+                  />
+                </FormControl>
+                <Button
+                  type="submit"
+                  variant="contained"
+                  color="primary"
+                  className={classes.button}
+                >
+                  Küldés
+                </Button>
+              </form>
+            )}
+          />
         </Grid>
       </Grid>
     </Layout>

@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
 import { Container, createStyles, Theme } from '@material-ui/core'
-import Navbar from './Navbar/Navbar'
-import Sidebar from './Sidebar/Sidebar'
-import Footer from './Footer/Footer'
+import Navbar from '../../components/Navbar/Navbar'
+import Sidebar from '../../components/Sidebar/Sidebar'
+import Footer from '../../components/Footer/Footer'
 
 const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent)
 
@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     list: {
       width: 300,
-      color: theme.palette.text.secondary,
+      color: '#FFFF',
     },
     fullList: {
       width: 'auto',
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme: Theme) =>
     appBar: {
       flexGrow: 1,
       background: theme.palette.background.paper,
-      color: theme.palette.text.secondary,
+      color: '#FFFF',
     },
     root: {
       flexGrow: 1,
@@ -34,7 +34,9 @@ const useStyles = makeStyles((theme: Theme) =>
     nested: {
       paddingLeft: theme.spacing(4),
     },
-    sidebar: {},
+    /* sidebar: {
+      color: '#FFFF',
+    }, */
   })
 )
 

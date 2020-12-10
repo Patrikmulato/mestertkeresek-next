@@ -20,7 +20,6 @@ const Sidebar: React.FC<SidebarInterface> = ({ isOpen, toggleDrawer, iOS, classe
       onOpen={toggleDrawer(true)}
       disableBackdropTransition={!iOS}
       disableDiscovery={iOS}
-      className={classes.sidebar}
     >
       <MenuItems classes={classes} />
     </SwipeableDrawer>
