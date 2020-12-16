@@ -3,6 +3,7 @@ import { ExpandLess, ExpandMore } from '@material-ui/icons'
 import React, { useState } from 'react'
 import { list } from './items'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface MenuItemsInterface {
   classes: Record<'list' | 'fullList' | 'root' | 'menuButton' | 'title' | 'nested', string>
@@ -25,7 +26,10 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
             {item.subitems != null ? (
               <div>
                 <ListItem button onClick={() => handleClick(item.name)}>
-                  <ListItemText primary={item.name} />
+                  <Link href={item.slug}>
+                    <ListItemText primary={item.name} />
+                  </Link>
+
                   {isCollapsed[item.name] ? <ExpandLess /> : <ExpandMore />}
                 </ListItem>
                 <Collapse component="li" in={isCollapsed[item.name]} timeout="auto" unmountOnExit>
@@ -33,7 +37,9 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
                     {item.subitems.map((subitem) => {
                       return (
                         <ListItem button key={subitem.id} className={classes.nested}>
-                          <ListItemText key={subitem.id} primary={subitem.name} />
+                          <Link href={subitem.slug}>
+                            <ListItemText key={subitem.id} primary={subitem.name} />
+                          </Link>
                         </ListItem>
                       )
                     })}
@@ -42,7 +48,9 @@ const MenuItems: React.FC<MenuItemsInterface> = ({ classes }) => {
               </div>
             ) : (
               <ListItem button onClick={() => handleClick(item.name)}>
-                <ListItemText primary={item.name} />
+                <Link href={item.slug}>
+                  <ListItemText primary={item.name} />
+                </Link>
               </ListItem>
             )}
           </div>

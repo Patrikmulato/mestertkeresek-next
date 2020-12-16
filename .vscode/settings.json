@@ -1,6 +1,10 @@
 {
-  "cSpell.words": ["Swipeable"],
-  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "Profil",
+    "Swipeable",
+    "szaki"
+  ],
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }

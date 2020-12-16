@@ -41,9 +41,8 @@ module.exports = {
         // Why would you want unused vars?
         '@typescript-eslint/no-unused-vars': ['warn'],
 
-     
-        "@typescript-eslint/explicit-module-boundary-types": "off",
-        'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Includes .prettierrc.js rules
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        'prettier/prettier': ['error', { endOfLine: 'auto' }, { usePrettierrc: true }], // Includes .prettierrc.js rules
       },
     },
   ],

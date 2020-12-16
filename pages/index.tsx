@@ -1,11 +1,49 @@
-import { Container, Grid } from '@material-ui/core'
+import { Button, createStyles, Grid, makeStyles, Theme, Typography } from '@material-ui/core'
+import SpecialistCard from 'components/SpecialistCard/SpecialistCard'
+import Layout from 'containers/Layout/Layout'
+import specialists from '../tempSzaki.json'
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      marginTop: theme.spacing(2),
+    },
+    card: {
+      background: theme.palette.background.default,
+      margin: theme.spacing(2),
+    },
+    chip: {
+      margin: theme.spacing(0.5),
+    },
+    profileButton: {
+      marginTop: theme.spacing(0.5),
+    },
+  })
+)
 
 export default function Home() {
+  const classes = useStyles()
   return (
-    <Container>
-      <Grid container direction="row" justify="center" alignItems="center">
-        {' '}
+    <Layout>
+      <Grid
+        container
+        className={classes.root}
+        justify="space-between"
+        wrap="nowrap"
+        alignItems="center"
+      >
+        <Grid item>
+          <Typography variant="h5">Kiemelt mesterek</Typography>
+        </Grid>
+        <Grid item>
+          <Button variant="contained" color="primary" size="small">
+            Mester regisztráció
+          </Button>
+        </Grid>
       </Grid>
-    </Container>
+      {specialists.map((specialist) => (
+        <SpecialistCard key={specialist.id} classes={classes} specialist={specialist} />
+      ))}
+    </Layout>
   )
 }

@@ -1,0 +1,1028 @@
+[
+  {
+    "id": 5,
+    "name": "Ácsolunk Építőipari Kft.",
+    "phone_number": "+36207705981",
+    "email": "info@acsolunk.hu",
+    "description": "Szeretettel üdvözlöm!\n\nCsóka Tihamér vagyok, az Ácsolunk Építőipari Kft. tulajdonosa és ügyvezetője.\n\nÁcs, bádogos, tetőfedő, lakatos, kőműves, térkövezés, homlokzatszigetelés, gipszkartonos munkák teljes körű kivitelezése.",
+    "location": "Dunakeszi",
+    "professions": [
+      {
+        "id": 1,
+        "name": "Kőműves",
+        "aliases": ""
+      },
+      {
+        "id": 2,
+        "name": "Ács",
+        "aliases": ""
+      },
+      {
+        "id": 6,
+        "name": "Lakatos",
+        "aliases": ""
+      },
+      {
+        "id": 9,
+        "name": "Hőszigetelés",
+        "aliases": ""
+      },
+      {
+        "id": 11,
+        "name": "Kivitelezés",
+        "aliases": ""
+      },
+      {
+        "id": 12,
+        "name": "Térkövezés",
+        "aliases": ""
+      },
+      {
+        "id": 25,
+        "name": "Generálkivitelező",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/a17182b8a4b50de01e6bacb59f54309f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fin.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T07:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 49,
+    "name": "Csaba Szücs ev",
+    "phone_number": "+36703153203",
+    "email": "csabi971@gmail.com",
+    "description": "Kedves leendő Ügyfelek!\nAkár azonnali kezdéssel vállalunk szobafestést, mázolást, tisztasági festést, glettelést ,újépítésű ház és kerítés festést, kisebb gipszkartonozási munkákat, butor festést. Kisebb munkák esetében is hívjon bizalommal.\nAmit nyújtunk:\n- ingyenes felmérés, tanácsadás, figyelembe véve az ügyfél igényeit (ár-érték arány)\n- pontos, tiszta munkavégzés- számla adás\nmegfizethető árak.",
+    "location": "Dunakeszi",
+    "professions": [
+      {
+        "id": 7,
+        "name": "Festő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/82a00d80040f6933c5710414f613ab2a?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fcs.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 35,
+    "name": "Farkas Tamás",
+    "phone_number": "+36307763026",
+    "email": "tomi0016@freemail.hu",
+    "description": "Cégünk Épületgépészeti munkával foglalkozik. Főbb tevékenységeink családi és társasházak komplett Víz-Gáz-fűtés ,Szelőzés és Klíma szerelése. ",
+    "location": "Jánossomorja",
+    "professions": [
+      {
+        "id": 8,
+        "name": "Gázvezeték szerelő",
+        "aliases": ""
+      },
+      {
+        "id": 16,
+        "name": "Épületgépész",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Győr-Moson-Sopron",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3379642748791937&height=50&width=50&ext=1606718078&hash=AeT2T7Cz17NtRoCykaE",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 80,
+    "name": "Csubák László Attila e.v.",
+    "phone_number": "+36202985952",
+    "email": "laci@csubi.hu",
+    "description": "Egyéni vállalkozóként amolyan \"mindenes\" informatikusként tevékenykedem. Otthoni, irodai és kisvállalati hálózatot építek, PC-t, laptopot javítok, szerelek és ügyfeleim informatikával kapcsolatos feladványait fejtegetem. Saját üzemeltetésű magyarországi szerverekről különböző szolgáltatásokat nyújtok. - Tárhely - e-mail - Privát felhő - FTP tárhely |\n\nBudapest, XIV., XV., XVI., XVII. kerület",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 93,
+        "name": "Informatikus",
+        "aliases": ""
+      },
+      {
+        "id": 95,
+        "name": "Számítógépszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 99,
+        "name": "Rendszergazda",
+        "aliases": ""
+      },
+      {
+        "id": 106,
+        "name": "Egyéb informatika, számítástechnika",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/6ae90dde9ee63a737a42c58ae34153b8?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fla.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 3000,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 60,
+    "name": "Vincze Péter e.v.",
+    "phone_number": "+36204408872",
+    "email": "vpbau01@gmail.com",
+    "description": "Üdvözlöm!\nKőműves munkát, burkolást, gipszkartonozást, bontást, hőszigetelést vállalok számlaképesen.\nKeressen bizalommal",
+    "location": "Vaszar",
+    "professions": [
+      {
+        "id": 1,
+        "name": "Kőműves",
+        "aliases": ""
+      },
+      {
+        "id": 7,
+        "name": "Festő",
+        "aliases": ""
+      },
+      {
+        "id": 9,
+        "name": "Hőszigetelés",
+        "aliases": ""
+      },
+      {
+        "id": 12,
+        "name": "Térkövezés",
+        "aliases": ""
+      },
+      {
+        "id": 22,
+        "name": "Földmunka",
+        "aliases": ""
+      },
+      {
+        "id": 24,
+        "name": "Burkoló",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Veszprém",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/221ee62377e4032dcfb07c61eb91faf4?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fvp.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T07:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 4,
+    "name": "Oláh Sándor Mustangsan Bt.",
+    "phone_number": "+36203641813",
+    "email": "olah.sandor.vill@gmail.com",
+    "description": "Villanyszerelés Miskolc A Mustangsan Bt.-ben a Miskolc-Nyíregyháza-Debrecen háromszögben foglalkozunk erősáramú kivitelezéssel, lakossági és ipari környezetben egyaránt. Igények szerint projekt jelleggel is szoktunk kivitelezni. 10+ év tapasztalattal végezzük a dolgunk, rendelkezünk Regisztrált (Főleg ELMŰ-ÉMÁSZ) szerelő, Érintésvédelmi szabványossági felülvizsgáló és Építőipari kivitelező (Ez E-napló szempontjából fontos) titulussal is.   Az online felületeink még elég kezdetlegesek, a referenciák pedig a képtárban várják a rendszerezést és a feltöltést, de elérhetőek vagyunk.    Villanyszerelést, Elektromos Kivitelezést, Érintésvédelmi Szabványossági Felülvizsgálatot, Szerelői Ellenőrzést  és Ipartechnológiai Kivitelezést, Javítást, Átalakítást egyaránt vállalunk.",
+    "location": "Miskolc",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 17,
+        "name": "Napelem-, napkollektor rendszer kiépítés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Borsod-Abaúj-Zemplén",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/AOh14GhGzu74KYE2k0OFgSyCUMR0tme58FffL14Mzk6bIg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 112,
+    "name": "Krisztián E.V. Jábor",
+    "phone_number": "06304480667",
+    "email": "krisztianjabor@gmail.com",
+    "description": "Jábor Krisztián E.V vagyok, vállalok villamos tervezést, kivitelezést és Javítást. ",
+    "location": "Devecser",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Veszprém",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/569543e0fba42a5f7977eed849981fee?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fkr.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 2000,
+    "next_available": "0000-01-01T07:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 32,
+    "name": "Krupják és Fia BT",
+    "phone_number": "+36304448616",
+    "email": "krupjakjozsi@gmail.com",
+    "description": "Víz Gáz Fűtés szerelésel foglalkozunk.\n30 éves szakmai tapasztalattal.\nJanuárban 8 év után jöttem haza Svájcbol és azóta ithon állunk az ügyfelek szolgálatára.\n",
+    "location": "Baracs",
+    "professions": [
+      {
+        "id": 5,
+        "name": "Fűtés szerelő",
+        "aliases": ""
+      },
+      {
+        "id": 8,
+        "name": "Gázvezeték szerelő",
+        "aliases": ""
+      },
+      {
+        "id": 18,
+        "name": "Vízvezeték szerelés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/b6c0a681-7b07-4b88-aeb1-ab4199854fa7.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 41,
+    "name": "Deák Benjámin",
+    "phone_number": "06203257586",
+    "email": "benji1978.db@gmail.com",
+    "description": "Asztalos munkák nyilászárok, bútorok gyártása javítása, galériák készítése.",
+    "location": "Hajduhadhaz",
+    "professions": [
+      {
+        "id": 3,
+        "name": "Asztalos",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Hajdú-Bihar",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/745e9b0ed41d617e7db16c498b74bace?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fbe.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 8,
+    "name": "Fekete Máté E.V.",
+    "phone_number": "+36706116944",
+    "email": "fekkerke@gmail.com",
+    "description": "Fekete Máté egészségügyi gázmester vagyok. \nHa meggyűlne a bajod a rágcsálókkal vagy a rovarokkal, akkor keress bizalommal!",
+    "location": "Szolnok",
+    "professions": [
+      {
+        "id": 181,
+        "name": "Rovarirtás",
+        "aliases": ""
+      },
+      {
+        "id": 209,
+        "name": "Rágcsálóírtás",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Jász-Nagykun-Szolnok",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/fb5b3daf-e49c-4dc4-9e67-6a7ea11f3d4d.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 14,
+    "name": "Kivitelezés Duna Bau",
+    "phone_number": "+36306336424",
+    "email": "epitobau2020@gmail.com",
+    "description": "Elkötelezett szakembereimmel az építés,felújítás,átalakítás teljes palettáján értéket építünk.",
+    "location": "Budapest ",
+    "professions": [
+      {
+        "id": 1,
+        "name": "Kőműves",
+        "aliases": ""
+      },
+      {
+        "id": 7,
+        "name": "Festő",
+        "aliases": ""
+      },
+      {
+        "id": 9,
+        "name": "Hőszigetelés",
+        "aliases": ""
+      },
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 12,
+        "name": "Térkövezés",
+        "aliases": ""
+      },
+      {
+        "id": 15,
+        "name": "Statikus",
+        "aliases": ""
+      },
+      {
+        "id": 16,
+        "name": "Épületgépész",
+        "aliases": ""
+      },
+      {
+        "id": 19,
+        "name": "Építész",
+        "aliases": ""
+      },
+      {
+        "id": 24,
+        "name": "Burkoló",
+        "aliases": ""
+      },
+      {
+        "id": 25,
+        "name": "Generálkivitelező",
+        "aliases": ""
+      },
+      {
+        "id": 18,
+        "name": "Vízvezeték szerelés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://lh5.googleusercontent.com/-EZ28CHKjzxw/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckZGIECLklt_rujng7ZdwiD_9TODQ/photo.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 38,
+    "name": "Ricsák Róbert Attila ",
+    "phone_number": "06205048292",
+    "email": "cubatya@citromail.hu",
+    "description": "Több éves szakmai múlttal ,tapasztalattal vállalom családi házak esztrik, valamint stiropol hőszigetelő beton készitését valamint teraszok, járdák keszítését is. Megbízható precíz munka, gyors kivitelezés, szakmai tanácsadás!!!",
+    "location": "Győr és környéke",
+    "professions": [
+      {
+        "id": 1,
+        "name": "Kőműves",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/2a517bae60d53e4d27de54d37aeb4681?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fcu.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 31,
+    "name": "Ilia János",
+    "phone_number": "06704331301 ",
+    "email": "iliajanos@gmail.com",
+    "description": "Szép napot mindenkinek!\nFelújítani szeretne, keressen bizalommal!\nReális és megfizethető áron vállalok fő profilként; \n-Lakások, házak festését, kültéri homlokzat színezést.\n-Tapétázás.\n-Mázolás\n-Lazúrozás, Lakkozás kül- és beltérben.\n-Régi fa ajtók, ablakok butorok felújítása.\n-Gipszkarton szerelés\n-Fémszerkezetek korrózióvédelme\n-Térburkolás\n-Parkettacsiszolás, -lakkozás\nDunaújvárosi vállalkozó.\n\nTel.: 06704331301\nEmail: iliajanos@gmail.com",
+    "location": "Dunaújváros",
+    "professions": [
+      {
+        "id": 7,
+        "name": "Festő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3421378641275700&height=50&width=50&ext=1606488685&hash=AeQZ8Rs0LyUtHYWf4JU",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T07:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 37,
+    "name": "Varga Balázs István ev.",
+    "phone_number": "+36205323559",
+    "email": "balazsistvan.varga@gmail.com",
+    "description": "Tisztelt érdeklödő!\n\nEgyéni vállalkozóként, alanyi áfamentesen vállalok lakossági területen villamos hálózatok hbaelhárítását és felújítását.\nA telefonszámom 10 éve ugysnaz és nem szándékozom megváltoztatni",
+    "location": "Budapest, Pest megye",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/e36614aee9b39e043786c6e31f7da795?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fba.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 8000,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 28,
+    "name": "Tóth Gábor",
+    "phone_number": "+36204290138",
+    "email": "gabor.toth05@gmail.com",
+    "description": "Vállalom weboldalak tervezését, kivitelezését.",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 94,
+        "name": "Honlapkészítő",
+        "aliases": ""
+      },
+      {
+        "id": 96,
+        "name": "Programozó",
+        "aliases": ""
+      },
+      {
+        "id": 97,
+        "name": "Webfejlesztő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/f5dbcffacf186c409410a51657a4205d?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 3000,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 67,
+    "name": "A Szakférfi - Papp Norbert",
+    "phone_number": "+36304565780",
+    "email": "aszakferfi@gmail.com",
+    "description": "A SZAKFÉRFI-ről:\n \nVillanyszerelésben a kis munkáktól, (lámpa-szerelvény csere, javítás, tűzhely beüzemelés, elosztó felújítás) LED hangulat, dísz és munka világítás kialakításon át (fehér vagy színes, láb, fal és mennyezet világítás, konyhapult megvilágítás) a teljes körű villamos beruházásig, (új lakások és házak villamos kivitelezése) rendkívül széles spektrum.\n\nMunka közben sokszor felmerült, hogy vállalnék-e kisebb, nem villanyszerelési munkákat (tükör, polc felszerelés, IKEA bútor összerakás, stb) Ha ott vagyok, akkor amiben tudok megpróbálok segíteni, de csak kizárólag akkor vállalom el, ha biztos vagyok benne, hogy a végén, jó minőségű munkát adok ki a kezemből.\n\nA helyszíni felmérés és árajánlat készítés természetesen díjmentes.\n\nHa kérdése van, keressen meg bátran, akár messenger üzenetben is.\n\nÜdv.\nPapp Norbert\nA SZAKFÉRFI!",
+    "location": "Dunakeszi",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 11,
+        "name": "Kivitelezés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/AOh14GjHpXktBdMmJ6aFti1Etze0Le7mE0iWwJmBDrRV=s96-c",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 26,
+    "name": "Hargi-Sat és Társa Kft.",
+    "phone_number": "06705391859",
+    "email": "antennaszervizbalaton@gmail.com",
+    "description": "Földi és műholdas antenna és antenna rendszerek szerelése javítása telepítése .",
+    "location": "Balaton",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": false,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://lh3.googleusercontent.com/a-/AOh14Gjj-eJOnPKmKEkUaU7b8woL_vm8embwXD7eil-w=s96-c",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 9500,
+    "next_available": "0000-01-01T00:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 3,
+    "name": "Helyben-Távban Könyvelőiroda Kft.",
+    "phone_number": "+36203334444",
+    "email": "bakjanos@helyben-tavban.hu",
+    "description": "Kérem, CSAK AKKOR KÉRJEN könyvelési vagy tanácsadási ÁRAJÁNLATOT, ha a munkához nem várja el a személyes jelenlétet.\n\nMi majdnem minden ügyfelet elfogadunk, mert van elég kapacitásunk, viszont a havi anyagokat emailben vagy más elektronikus úton várjuk, az esetlegesen papíron meglévőket mobillal lefényképezve vagy beszkennelve - a teendőit ugyanígy kapja vissza. Emellett gyorspostával is küldheti az anyagokat, ha vállalja annak a havi 2000 Ft-os költségét. Több városban irodával is jelen vagyunk (Budapest, Tatabánya, Komárom, Bakonybél, Nagyigmánd), így itt a hagyományos, papíros megoldás is működhet.\n\nKATÁS vállalkozást 6600 Ft-tól, más egyéni vállalkozást 8800 Ft-tól, kft-t havi 14500 Ft-tól könyvelünk, ezek a díjak az induló, legkisebb forgalomra érvényesek.",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 43,
+        "name": "Könyvelés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/9b5db3c77675759a9f3b96461635bfb4?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fba.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 16,
+    "name": "HoPá cleaning ",
+    "phone_number": "+36301583707",
+    "email": "hopacleaning@gmail.com",
+    "description": "Üdvözlöm! Egyéni vállalkozóként takarítással és ózonos fertőtlenítéssel foglalkozok. Lakások, családi házak, irodák, közintézmények, apartmanok, nyaralók, lépcsőházak egyszeri nagytakarítása, fertőtlenítő takarítása, vagy rendszeres takarítása, illetve ózonos fertőtlenítése és szagtalanítása, valamint autóktól a buszokig klímával együtt történő ózonos fertőtlenítése és szagtalanítása. ",
+    "location": "Pápa ",
+    "professions": [
+      {
+        "id": 30,
+        "name": "Takarítás",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/3dff3b77eb2dd498fb4b3d866ba6d58c?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fho.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 74,
+    "name": "KaptárVill Bt.",
+    "phone_number": "+36203545070",
+    "email": "nadaban@gmail.com",
+    "description": "ELMÜ regisztrációval vállalunk mindennemű villanyszerelési munkát Budapesten, és 50 km. körzetében.\nÉpületek, irodák, üzemek villanyszerelési munkái, mérőhelyek kiépítése rövid határidővel, barátságos áron.\n",
+    "location": "Budapest és környéke",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/f086613f-70f6-4d8d-ab94-59e01d272ff9.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T08:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 115,
+    "name": "Hajdú Attila EV.",
+    "phone_number": "+36209817468",
+    "email": "hajduvillany@gmail.com",
+    "description": "Üdvözlöm!\n\nTISZTELT MEGRENDELŐIM, A KIVITELEZÉSI MUNKÁK NEM ÁLLNAK LE!\n\nHajdú Attila vagyok.\nSzenvedélyem és hobbim a munkám. Örömömet lelem egy sikeres kivitelezésben, a megrendelőim elégedettségében. Káros szenvedélyektől mentes vagyok (na jó Kávé azért legyen). Ha a szükség úgy hozza nem dobom el a szerszámokat 16h-kor. Nem ilyedek meg a korai munkakezdéstől. A megbeszélt 8h az 8:00perc nem 9:15h. Végzettséggel rendelkezem, számlát minden munkámnál adok, mint ahogy 1év garanciát is az elvégzett munkára.\n \nKomplett családiházak, lakások villanyszerelése. Régi hálózatok újra vezetékezése. Terhelés elosztás, FI-relé (ÁVK) beszerelése. Elosztó dobozok bővítése cseréje. Bármilyen \"kis munka\" akár egy foglalat cseréje akár egy csillár bekötése. Szerelvényezés. Kábelcsatornázás. Háztartási gépek garanciális bekötése, akár az új hálózat kiépítésével.",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/e3ef92af-2589-40b4-810c-13cfdd81e377.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 5000,
+    "next_available": "0000-01-01T07:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 19,
+    "name": "Green-klíma",
+    "phone_number": "+36303496933",
+    "email": "mesterur@gmail.com",
+    "description": "Klímák értékesítése, telepítése, karbantartása.\nForgalmazott klíma márkák: Polar, Bosch, Midea, Gree.Mitsubishi, Samsung, Panasonic, L-G, Daikin, \nVillanyszerelés\nHáztartási gép javítás\nNagy konyhai hűtőszekrények javítása, karbantartása\n",
+    "location": "Szeged",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 28,
+        "name": "Háztartási gép szerelő",
+        "aliases": ""
+      },
+      {
+        "id": 37,
+        "name": "Hűtő-, klíma- és hőszivattyú berendezés-szerelő",
+        "aliases": ""
+      },
+      {
+        "id": 41,
+        "name": "Elektromos gép- és készülékszerelő",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Csongrád",
+    "RegionID": 0,
+    "Available": "",
+    "callable": false,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/b06181ead99974ab0efcba8e0c29ca92?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fme.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 2500,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 34,
+    "name": "Palakovics Ákos",
+    "phone_number": "+36303302213",
+    "email": "villpala@gmail.com",
+    "description": "Üdvözlöm főként lakossági villanyszereléssel hibakereséssel javítással és lakóépületek részleges vagy teljes elektromos felújításával. Riasztók,kaputelefonok,elektromos kapunyitók,kamerarendszerek javításával és telepítésével foglalkozunk.Ha valamiben segítségére lehetünk keressen bizalommal.",
+    "location": "Tatabánya",
+    "professions": [
+      {
+        "id": 10,
+        "name": "Villanyszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 122,
+        "name": "Futár",
+        "aliases": ""
+      },
+      {
+        "id": 131,
+        "name": "Élelmiszer kiszállítás",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": false,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/b7ccd6d3-4cda-49be-bf83-84c367063951.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 12,
+    "name": "Valkó Máté László EV",
+    "phone_number": "+36703321622",
+    "email": "mester@valq.hu",
+    "description": "Üdvözöljük! Vállalkozásunk több, mint 5 év alapult, több mint 10 év tapasztalattal, elégedett ügyfelekkel, cégekkel nyújtunk megoldást bármilyen informatikai problémára, irodai folyamatok optimalizálására, adatelemzésre. ",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 96,
+        "name": "Programozó",
+        "aliases": ""
+      },
+      {
+        "id": 97,
+        "name": "Webfejlesztő",
+        "aliases": ""
+      },
+      {
+        "id": 99,
+        "name": "Rendszergazda",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": false,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://s.gravatar.com/avatar/9a23721dfdcd13f242eb3ceb7d9784a2?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fme.png",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T00:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 25,
+    "name": "Daragó Sándor",
+    "phone_number": "303356258",
+    "email": "gene89@gmail.com",
+    "description": "2009 óta foglalkozom weboldal fejlesztéssel és karbantartással. Szeretem a kihívásokat és folyamatosan fejlesztem magam, hogy mindig képben legyek a legújabb megoldásokkal és teendekkel.",
+    "location": "Budapest",
+    "professions": [
+      {
+        "id": 52,
+        "name": "Online marketing",
+        "aliases": ""
+      },
+      {
+        "id": 94,
+        "name": "Honlapkészítő",
+        "aliases": ""
+      },
+      {
+        "id": 96,
+        "name": "Programozó",
+        "aliases": ""
+      },
+      {
+        "id": 97,
+        "name": "Webfejlesztő",
+        "aliases": ""
+      },
+      {
+        "id": 102,
+        "name": "Adatrögzítés",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1996767650454348&height=50&width=50&ext=1606155510&hash=AeTnPLhFaF7jq_2ikG4",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  },
+  {
+    "id": 23,
+    "name": "NAP-TEAM szerviz",
+    "phone_number": "203206357",
+    "email": "napteam@gmail.com",
+    "description": "Segítünk pc 🖥 , laptop💻 hibák\nmegoldásában,garanciával, rövid határidővel, otthon és az irodában\nkiszállással is!\nEzen kívül készpénzért megvásároljuk\nalkatrészeit, laptopját, pc-jét.\nJavítás ígénylése otthonában, X.ker, XIX.ker, XVIII.ker.\nHonlap és árak: https://www.nap-team.hu",
+    "location": "Budapest, X.",
+    "professions": [
+      {
+        "id": 95,
+        "name": "Számítógépszerelő",
+        "aliases": ""
+      },
+      {
+        "id": 106,
+        "name": "Egyéb informatika, számítástechnika",
+        "aliases": ""
+      }
+    ],
+    "can_be_called_times": null,
+    "region": "Pest",
+    "RegionID": 0,
+    "Available": "",
+    "callable": true,
+    "Joined": "0001-01-01T00:00:00Z",
+    "profile_picture": "https://mestertkeresek.hu/images/profil-kepek/3cbc7409-f6d8-4837-b738-15bf5be85a3e.jpg",
+    "reference_pictures": null,
+    "PhoneCallbacks": null,
+    "rating": "0",
+    "drop_off_fee": 0,
+    "next_available": "0000-01-01T09:00:00Z",
+    "highlight": false,
+    "visible": false,
+    "payed_plan": false,
+    "priority": 0
+  }
+]
