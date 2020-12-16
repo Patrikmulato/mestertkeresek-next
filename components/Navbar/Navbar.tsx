@@ -1,6 +1,7 @@
 import React from 'react'
 import { AppBar, Button, IconButton, Toolbar, Typography } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
+import Link from 'next/link'
 
 interface NavbarInterface {
   classes: Record<
@@ -28,9 +29,12 @@ const Navbar: React.FC<NavbarInterface> = ({
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" className={classes.title}>
-          Mesterkeresek.hu
-        </Typography>
+        <Link href="/">
+          <Typography variant="h6" className={classes.title}>
+            Mesterkeresek.hu
+          </Typography>
+        </Link>
+
         {isLoggedIn ? <div></div> : <Button color="inherit">Bejelentkezés</Button>}
       </Toolbar>
     </AppBar>

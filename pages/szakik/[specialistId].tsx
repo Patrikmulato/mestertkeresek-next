@@ -69,9 +69,15 @@ function SzakiProfil() {
                 </Grid>
                 <Grid item>
                   <Typography variant="h6">{currentSpecialist.name}</Typography>
-                  <Button variant="outlined" color="primary">
-                    {currentSpecialist.phone_number}
-                  </Button>
+                  {currentSpecialist.callable ? (
+                    <Button variant="outlined" color="primary">
+                      {currentSpecialist.phone_number}
+                    </Button>
+                  ) : (
+                    <Button variant="outlined" color="primary">
+                      Visszahívás kérése
+                    </Button>
+                  )}
                 </Grid>
               </Grid>
             </Grid>

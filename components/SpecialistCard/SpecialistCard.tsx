@@ -20,9 +20,15 @@ const SpecialistCard: React.FC<SpecialistCardInterface> = ({ classes, specialist
           </Grid>
 
           <Grid item>
-            <Button variant="outlined" color="primary">
-              {specialist.phone_number}
-            </Button>
+            {specialist.callable ? (
+              <Button variant="outlined" color="primary">
+                {specialist.phone_number}
+              </Button>
+            ) : (
+              <Button variant="outlined" color="primary">
+                Visszahívás kérése
+              </Button>
+            )}
           </Grid>
         </Grid>
         <Grid container alignItems="center">
