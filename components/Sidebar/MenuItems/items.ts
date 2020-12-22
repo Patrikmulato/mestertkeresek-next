@@ -91,7 +91,7 @@ export const list = [
       {
         id: 2,
         name: 'Adatvédelem irányelvek',
-        slug: '/',
+        slug: '/adatvedelem',
       },
       {
         id: 3,

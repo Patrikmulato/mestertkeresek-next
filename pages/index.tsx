@@ -1,7 +1,7 @@
 import { Button, createStyles, Grid, makeStyles, Theme, Typography } from '@material-ui/core'
 import SpecialistCard from 'components/SpecialistCard/SpecialistCard'
 import Layout from 'containers/Layout/Layout'
-// import specialists from '../tempSzaki.json'
+import specialists from '../tempSzaki.json'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 )
 
-export default function Home({ specialists }) {
+export default function Home() {
   const classes = useStyles()
   return (
     <Layout>
@@ -47,7 +47,7 @@ export default function Home({ specialists }) {
     </Layout>
   )
 }
-//getServerSideProps -ot néztem még
+/* //getServerSideProps -ot néztem még
 export async function getStaticProps() {
   const res = await fetch(
     `http://mestertkeresek-staging-env.eu-central-1.elasticbeanstalk.com/api/kiemelt-szakik`
@@ -60,4 +60,4 @@ export async function getStaticProps() {
     }
   }
   return { props: { specialists } } // will be passed to the page component as props}
-}
+} */
