@@ -13,7 +13,6 @@ import {
 } from '@material-ui/core'
 import AdBanner from 'components/AdBanner/AdBanner'
 import Layout from 'containers/Layout/Layout'
-import useScript from 'hooks/useScript'
 import React from 'react'
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -27,9 +26,6 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const SutiNyilatkozat = () => {
   const classes = useStyles()
-  const status = useScript('//report.cookie-script.com/r/06a7fcd9e752a69787f543a4894c5a78.js')
-
-  console.log(status)
 
   return (
     <Layout>
@@ -78,18 +74,7 @@ const SutiNyilatkozat = () => {
             </Button>
           </FormGroup>
           <Typography>Szigorúan szükséges</Typography>
-          <div>
-            <div>
-              Script status: <b>{status}</b>
-            </div>
-            {status === 'ready' && (
-              <script
-                type="text/javascript"
-                data-cookiescriptreport="report"
-                src="//report.cookie-script.com/r/06a7fcd9e752a69787f543a4894c5a78.js"
-              ></script>
-            )}
-          </div>
+          <form action="/procesar-pago" method="POST" ref={buttonContainerRef} />
 
           <br />
           <Typography variant="h6">Harmadik fél weboldalain található sütik</Typography>

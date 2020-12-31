@@ -5,7 +5,6 @@ import Layout from 'containers/Layout/Layout'
 import {
   Button,
   Card,
-  CardActions,
   CardContent,
   Chip,
   createStyles,
