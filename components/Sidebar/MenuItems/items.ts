@@ -111,7 +111,7 @@ export const list = [
       {
         id: 6,
         name: 'Gyakran ismételt kérdések',
-        slug: '/',
+        slug: '/gyik',
       },
       {
         id: 7,
