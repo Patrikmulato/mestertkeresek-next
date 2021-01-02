@@ -16,6 +16,7 @@
     "@material-ui/pickers": "3.x.x",
     "@react-google-maps/api": "^1.13.0",
     "@types/yup": "^0.29.10",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "final-form": "^4.20.1",
     "mui-rff": "^2.5.6",
